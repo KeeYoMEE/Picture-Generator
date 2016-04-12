@@ -1,0 +1,21 @@
+{
+  "name": "Pepe/Generator",
+  "description": "Generator Random Images",
+  "authors": [
+    {
+      "name": "Josef Doležal",
+      "email": "pepe@kriplhaze.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Pepe\\Generator\\": "src/",
+      "Pepe\\Register\\": "reg/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
