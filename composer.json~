@@ -3,12 +3,14 @@
   "description": "Generator Random Images",
   "authors": [
     {
-      "name": "Josef Doležal"
+      "name": "Josef Doležal",
+      "email": "pepe@kriplhaze.net"
     }
   ],
   "autoload": {
     "psr-4": {
-      "Pepe\\Generator\\": "src/"
+      "Pepe\\Generator\\": "src/",
+      "Pepe\\Register\\": "reg/"
     }
   },
   "extra": {
